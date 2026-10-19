@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+
+body{
+    background-color: #f5f7f0;
+}
+.topInfo{
+    text-align: center;
+    background-color: black;
+     color: #fff;
+    /* padding-block: 8px; */
+    padding-block: 4px;
+}
+
+.topInfo > p {
+    font-size: 16px;
+}
+
+.topInfo > p > span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.loginContainer{
+    border: 2px solid;
+    display: flex;
+}
+
+.loginContent {
+    /* border: 2px solid blue; */
+    /* width: 50%; */
+    flex: 1;
+}
+
+.content{
+    /* border: 2px solid green; */
+    width: 400px;
+    margin: auto;
+}
+
+.content > p{
+    font-weight: 500;
+    font-size: 28px;
+
+}
+
+.content > p{
+    margin-block: 1rem;
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.content > p > a{
+    text-decoration: none;
+    color: #ff8200;
+    font-weight: 700;
+
+}
+
+.loginImg {
+    border: 2px soild red;
+    /* width: 50%; */
+    flex: 1;
+
+}
+
+/* form styling */
+.input-container{
+    border: 1px solid;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.input-container > input {
+    border: none;
+    width: 100;
+    padding: 0.4rem 1rem;
+    outline: none;
+}
+
+.input-container > input::placeholder {
+    text-transform: capitalize;
+    font-weight: 600;
+    opacity: 0.5;
+    font-size: 0.7rem;
+}
+
+.input-container > i {
+    font-size: 0.75rem;
+    color: grey;
+}
+
+.reset {
+    display: block;
+    text-align: end;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #ff8200;
+    font-weight: 700;
+}
+
+button {
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    margin-block: 0.7rem;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #ff8200;
+}
+
+.register {
+    display: block;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    box-shadow: 0.1rem 0.1rem 6px grey;
+}
+
+.policy {
+    margin-top: 0.8rem;
+    border: 1px solid;
+    display: block;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border-radius: 7px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.imgcont{
+    align-items: center;
+}
+.policy > span {
+    color: #ff8200;
+}
+
+footer {
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+footer > h4 {
+    font-size: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    background-color: #f5f7f8;
+}
+
+.topinfo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    /* padding: 8px 0; */
+    padding: 8px 0;
+}
+.topinfo > p{
+    font-size: 16px;
+}
+.topinfo > p > span{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.logincontainer{
+    display: flex;
+}
+
+.logincontent{
+    /* width: 50%; */
+    flex: 65%;
+}
+
+.content{
+    width: 400px;
+    margin: auto;
+}
+.content > h2{
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.content > p{
+    margin-block: 1rem;
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.content > p > a{
+    text-decoration: none;
+    color: #ff8200;
+    font-weight: 700;   
+}
+
+.loginimg{
+    /* width: 50%;  */
+    flex: 35%;
+}
+/* form sttyling */
+.input-container{
+    border:0.1rem solid rgba(128, 128, 128, 0.24);
+    padding: 0.3rem 0.6;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.input-container > input{
+    border: none;
+    width: 100px;
+    padding: 0.4rem 1rem;
+    outline: none;
+    height: 51px;
+}
+.input-container > input::placeholder{
+    text-transform: capitalize;
+    font-weight: 800;
+    opacity: 0.5;
+    font-size: 14px;
+
+}
+
+.input-container > i{
+    margin-left: 12px;
+    font-size: 17 20;
+    color: grey;
+}
+.input-container > .fa-eye-slash{
+    padding-left: 200px;
+    color: black;
+}
+
+.reset{
+    display: block;
+    text-align: end;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #ff8200;
+    font-weight: 700;
+}
+
+button{
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    margin-block: 0.7rem;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #ff8200;
+}
+
+.register{
+    display: block;
+    text-align: center;
+    padding: 1.2rem 0.1rem;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #363a43;
+    font-weight: 800;
+    box-shadow: 0.1rem 0.1rem 6px grey;
+}
+
+.policy{
+    margin-top: 0.8rem;
+    border: 1px solid;
+    display: block;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border-radius: 7px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.policy > span{
+    color: #ff8200;
+}
+.flag{
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+    
+}
+.flag{
+    margin-left: 140%;;
+}
+.imgcont{
+    height: 580px;
+}
+.imgcont > #phone{
+    height: 580px;
+    margin-left: 19%;
+    margin-top: 13%;
+}
+.imgcont > #lines{
+    position: absolute; left: 65%;
+    margin-top: 35.5%;
+    border-right:200%;
+    width: 35%;
+    height: 150px;
+}
+
+ footer > h4{
+    font-size: 10px;
+ }
+ footer{
+    background-color: #fff;
+    padding: 1.5rem;
+ }
+ main{
+    border: none;
+ }
+ .link{
+    display: block;
+    text-align: center;
+    background: #fff;
+    margin: 16px 1px 0px 0px;
+    padding: 16px 34px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0.1rem 0.1rem 4px grey;
+    font-size: 12px;
+    height: 50px;
+}
+.link > span{
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: #ff8200;
+}
